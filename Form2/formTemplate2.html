@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template2</title>
+    <link rel="stylesheet" href="Template2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="topBox">
+        <h1>Speaker Submission</h1>
+        <p>Want to speak at our fake conference?</p>
+        <p>Fill out this form.</p>
+      </div>
+      <div class="topBox" style="margin-top: 1rem">
+        <div class="labels">
+          <label for="name">Name</label>
+          <input type="text" />
+        </div>
+        <div class="labels">
+          <label for="email">Email</label>
+          <input type="text" />
+        </div>
+        <div class="labels">
+          <label for="" style="margin-right: 1rem" ;>Type of Talk</label>
+          <input type="radio" value="Main Stage" />
+          <label for="Main Stage" style="margin-right: 1rem">Main Stage</label>
+          <input type="radio" value="Workshop" />
+          <label for="Workshop">Workshop</label>
+          <br />
+          <div class="labels">
+          <label for="">T-shirt Size</label>
+          <select class="selectBox" name="tshirtSize id="">
+            <option style="display: none;"></option>
+            <option value="small">small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+          </select>
+        </div>
+          <label for="Abstract">Abstract</label>
+          <textarea
+            name="Abstract message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <p class="description">Describe your talk in 500 words or less</p>
+        <div>
+            <input type="checkbox">
+            <label for="">I am actually available on the date of the talk</label>
+        </div>
+        <div style="margin-top: 1rem;">
+            <button class="button button2" type="submit" value="Submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
